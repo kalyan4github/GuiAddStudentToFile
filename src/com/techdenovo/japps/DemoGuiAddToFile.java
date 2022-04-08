@@ -47,7 +47,9 @@ public class DemoGuiAddToFile {
                     writer.write(student);
                     writer.close();
                     JOptionPane.showMessageDialog(frame,"Successfully Added");
-
+                    txtFirstName.setText("");
+                    txtLastName.setText("");
+                    txtCollegeName.setText("");
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
