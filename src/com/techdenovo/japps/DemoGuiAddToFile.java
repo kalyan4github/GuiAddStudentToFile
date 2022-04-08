@@ -16,6 +16,7 @@ public class DemoGuiAddToFile {
         int screeHeight= (int)size.getHeight();
         JFrame frame = new JFrame("Add Student");
         frame.setBounds(screenWidth/3,screeHeight/3,500,400);
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
         JLabel lblFirstName = new JLabel("First Name");
         JLabel lblLastName = new JLabel("Last Name");
